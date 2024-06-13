@@ -1,0 +1,10 @@
+{
+    "name": "hello-world-docker",
+    "version": "1.0.0",
+    "description": "A simple Hello World app in Docker",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "dependencies": {}
+  }
