@@ -1,6 +1,6 @@
 # Docker-based Node.js App
 
-A simple Node.js HTTP server that responds with 'Hello World' messages, containerized using Docker.
+A simple Node.js HTTP server that responds with 'Hello World' message and displays the Node.js logo, containerized using Docker.
 
 ## Cloning
 
