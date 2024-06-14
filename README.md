@@ -18,7 +18,7 @@ docker build -t docker-based-node .
 ## Running
 To run the container, use:
 ```
-doker run -e PORT=8000 -p 8000:000 docker-based-node
+docker run -e PORT=8000 -p 8000:000 docker-based-node
 ```
 The server will be accessible at http://localhost:8000.
 ## Development
