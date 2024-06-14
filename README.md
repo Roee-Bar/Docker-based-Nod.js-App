@@ -1,5 +1,10 @@
 # docker-based-node.js-app
 Node http server that responds with 'hello world' messages
+## Clouning
+```
+git clone https://github.com/Roee-Bar/docker-based-nodejs-app.git
+git cd docker-based-nodejs-app
+```
 ## Building
 ```
 docker build docker-based-node
