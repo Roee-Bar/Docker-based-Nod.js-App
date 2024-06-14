@@ -1,15 +1,29 @@
-# docker-based-node.js-app
-Node http server that responds with 'hello world' messages
-## Clonning
-```
+# Docker-based Node.js App
+
+A simple Node.js HTTP server that responds with 'Hello World' messages, containerized using Docker.
+
+## Cloning
+
+To clone the repository, run the following commands:
+
+```bash
 git clone https://github.com/Roee-Bar/docker-based-nodejs-app.git
-git cd docker-based-nodejs-app
+cd docker-based-nodejs-app
 ```
 ## Building
+To build the Docker image, run:
 ```
-docker build docker-based-node
+docker build -t docker-based-node .
 ```
 ## Running
+To run the container, use:
 ```
 doker run -e PORT=8000 -p 8000:000 docker-based-node
 ```
+The server will be accessible at http://localhost:8000.
+## Development
+To make changes to the application:
+
+1. Modify the index.js file as needed.
+2. Rebuild the Docker image using the build command above.
+3. Run the new container to test your changes.
