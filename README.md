@@ -28,6 +28,12 @@ To run the container, use:
 ```
 docker run -e PORT=8000 -p 8000:8000 docker-based-node
 ```
+## Monitoring
+To check the status and resource usage of the running container, use the following command:
+
+```bash
+docker stats $(docker ps -q --filter ancestor=docker-based-node)
+```
 The server will be accessible at http://localhost:8000.
 ## Development
 To make changes to the application:
