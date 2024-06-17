@@ -35,6 +35,17 @@ To check the status and resource usage of the running container, use the followi
 docker stats
 ```
 The server will be accessible at http://localhost:8000.
+## Stopping the Container
+To stop the running container, you can use the following steps:
+
+1. First, find the container ID:
+```bash
+docker ps --filter ancestor=docker-based-node
+```
+2. Then, use the container ID to stop the container:
+```bash
+docker stop <container_id>
+```
 ## Development
 To make changes to the application:
 
