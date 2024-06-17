@@ -26,7 +26,7 @@ docker build -t docker-based-node .
 ## Running
 To run the container, use:
 ```
-docker run -e PORT=8000 -p 8000:8000 docker-based-node
+docker run -d -e PORT=8000 -p 8000:8000 docker-based-node
 ```
 ## Monitoring
 To check the status and resource usage of the running container, use the following command:
